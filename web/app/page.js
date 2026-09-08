@@ -1,2 +1,2 @@
-import Link from 'next/link';
+import Link from 'next/link'
 export default function Home(){return <main className="landing"><section className="hero"><span className="eyebrow">FRANÇAIS ⇄ TÜRKÇE</span><h1>Deux assistants, une même simplicité.</h1><p>Choisissez l’application à ouvrir puis ajoutez-la à l’écran d’accueil de l’iPhone.</p><div className="cards"><Link className="choice premium" href="/premium"><b>Istanbul AI Premium</b><span>IA contextuelle, interprète, photo, vocabulaire professionnel</span></Link><Link className="choice student" href="/erasmus"><b>Erasmus Türkiye+</b><span>Gratuit, quotidien, restaurant, commerces, campus et sécurité</span></Link></div></section></main>}
